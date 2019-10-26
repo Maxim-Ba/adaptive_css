@@ -1,0 +1,42 @@
+.intro__text{
+    font-family: Inter;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 35px;
+    Font-Style: Regular;
+    font-weight: bold;
+}
+.intro__text p{
+    margin: 0;
+    padding: 0;
+}
+.intro__text p span{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+@media screen and (max-width:425px) {
+    .intro__text{
+        margin: 10% auto;
+        font-size: 0.6em;
+        line-height: 1.58;
+        width: 90%;
+        
+    }
+  }
+
+@media screen and (min-width:425px) and (max-width:769px){
+    .intro__text{
+        margin: 3.2% auto;
+        font-size: 0.85em;
+        line-height: 1.58;
+        width: 93%;
+        
+    }
+}
+
+@media screen and (min-width:770px) and (max-width:1024px){
+    .intro__text{
+        margin-left: 3.5%;
+    }
+}

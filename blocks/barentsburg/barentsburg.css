@@ -1,0 +1,9 @@
+@import url('./__tittle/__tittle.css');
+@import url('./__coord/__coord.css');
+@import url('./__container/__container.css');
+
+
+.barentsburg{
+    margin: 85px auto  160px;
+    max-width: 1184px;
+}

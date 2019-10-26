@@ -1,0 +1,42 @@
+@import url('../common__styles-and-sections/section__title.css');
+@import url('./__title/section__tittle_comments-modifier.css');
+@import url('../common__styles-and-sections/content-subtitle.css');
+@import url('./__subtitle/content-subtitle_additional-modifier.css');
+@import url('./__container/__container.css');
+.comments{
+    max-width: 1184px;
+    margin: 0 auto;
+    
+}
+
+@media screen and (max-width:425px) {
+    .comments{
+        max-width: 90%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+        
+        
+}
+
+@media screen and (min-width:425px) and (max-width:769px){
+    .comments{
+        max-width: 93%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:770px) and (max-width:1024px){
+    .comments{
+        max-width: 90%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1280px){
+    .comments{
+        max-width: 93%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+}

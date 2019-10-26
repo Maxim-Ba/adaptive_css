@@ -1,0 +1,15 @@
+@import url('./additional-heading.css');
+@import url('./additional-text.css');
+.additional-container__item{
+    max-width: 284px;
+    min-height: 330px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 18px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}

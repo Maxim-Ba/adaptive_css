@@ -1,0 +1,32 @@
+.comment__autor{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-style: normal ;
+    font-style: black;
+}
+@media screen and (max-width:425px) {
+    
+    .comment__autor{
+        margin: 0 auto;
+        font-style: black;
+        font-size: 0.8em;
+        line-height: 1.7;
+        grid-area: autor;
+    }
+    
+    
+}
+
+@media screen and (min-width:425px) and (max-width:769px){
+    .comment__autor{
+        margin: 0 auto;
+        font-style: black;
+        font-size: 14px;
+        line-height: 1.7;
+        grid-area: autor;
+    }
+}

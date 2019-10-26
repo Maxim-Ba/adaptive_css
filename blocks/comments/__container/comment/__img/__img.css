@@ -1,0 +1,35 @@
+.comment__img{
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+@media screen and (max-width:425px) {
+    
+    .comment__img{
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 23px;
+        grid-area: img;
+        display: block;
+        
+        margin-bottom: 5%;
+       
+    }
+    
+    
+}
+
+@media screen and (min-width:425px) and (max-width:769px){
+    .comment__img{
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 23px;
+        grid-area: img;
+        display: block;
+        
+        margin-bottom: 16px;
+       
+    }
+}

@@ -1,0 +1,42 @@
+
+.comment__quote{
+    font-family: inter;
+    margin-top: 42px;
+    margin-bottom: 24px;
+    font-style:regular;
+    margin-left: 0px;
+    font-size: 14px;
+    line-height: 23px;
+}
+@media screen and (max-width:425px) {
+    
+    .comment__quote{
+        
+        margin-top: 7.5%;
+        margin-bottom: 1.89%;
+        grid-area: quote;
+        margin-left: 0px;
+        font-size: 0.88em;
+        line-height: 1.4;
+        order: 3;
+        width: 100%;
+    }
+    
+    
+}
+
+@media screen and (min-width:425px) and (max-width:769px){
+    .comment__quote{
+        
+        margin-top: 24px;
+        /*margin-bottom: 1.89%;*/
+        grid-area: quote;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        line-height: 1.4;
+        order: 3;
+        width: 60%;
+
+    }
+}

@@ -1,0 +1,11 @@
+.emblem__tittle{
+    font-family: Inter;
+    font-size: 42px;
+    line-height: 45px;
+    max-width: 430px;
+    color: #FFFFFF; 
+    display: block;
+    font-weight: bold;
+    margin-bottom: 82px;
+    margin-top: 0px;
+}

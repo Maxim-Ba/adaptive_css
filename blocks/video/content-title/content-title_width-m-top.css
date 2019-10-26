@@ -1,0 +1,16 @@
+.content-title_width-m-top{
+    max-width: 800px;
+}
+
+@media screen and (max-width:425px) {
+    .content-title_width-m-top{
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:769px){
+    .content-title_width-m-top{
+        max-width: 90%;
+        margin-bottom: 4% !important;
+    }
+}

@@ -1,0 +1,12 @@
+@import url("./__item/__item.css");
+@import url("./__item/additional-container__item_bg1.css");
+@import url("./__item/additional-container__item_bg2.css");
+@import url("./__item/additional-container__item_bg3.css");
+@import url("./__item/additional-container__item_bg4.css");
+
+
+.additional__container{
+    display: flex;
+    justify-content: space-between;
+
+}

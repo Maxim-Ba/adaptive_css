@@ -1,0 +1,30 @@
+.places__URL{
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    Font-Style: Regular;
+    color: #FFFFFF;
+    margin-top: 16px;
+    
+}
+@media screen and (max-width:425px) {
+    
+        
+        
+        
+        
+    .places__URL{
+       display: none;
+        
+    }
+  }
+
+@media screen and (min-width:425px) and (max-width:769px){
+    .places__URL{
+        
+        font-size: 1em;
+        line-height: 1.66;
+        margin-top: 16px;
+    }
+}

@@ -1,0 +1,13 @@
+
+
+.barentsburg-container__text{
+    max-width: 380px;
+    margin-right: 120px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0px;
+    color: #FFFFFF;
+    display: block;
+    font-style: regular;
+}

@@ -1,0 +1,55 @@
+@import url('./__title/__title.css');
+@import url('./__subtitle/__subtitle.css');
+@import url('./__img/__image.css');
+@import url('./__caption/__caption.css');
+.lead{
+    top: 48px;
+    max-width: 985px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    color: #FFFFFF;
+    position: relative;
+
+}
+
+@media screen and (max-width:425px) {
+    .lead{
+        top: 48px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 1em;;
+        color: #FFFFFF;
+        position: relative;
+        font-size: 18px;
+    }
+  }
+
+
+  @media screen and (min-width:425px) and (max-width:769px){
+    .lead{
+        top: 0;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 1em;;
+        color: #FFFFFF;
+        position: relative;
+        font-size: 18px;
+    }
+  }
+
+@media screen and (min-width:770px) and (max-width:1024px){
+    .lead{
+      min-width:90%;
+      max-width:90%
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px){
+  .lead{
+    min-width:76%;
+    max-width:77%
+  }
+}

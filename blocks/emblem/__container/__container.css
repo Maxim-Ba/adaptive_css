@@ -1,0 +1,9 @@
+@import url('./__item/__item.css');
+
+.emblem__container{
+    display: flex;
+    justify-content: space-between;
+    min-width: 208px;
+    
+    
+}

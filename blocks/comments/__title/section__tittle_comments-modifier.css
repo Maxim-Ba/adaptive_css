@@ -1,0 +1,30 @@
+.section__tittle_comments-modifier{
+    margin-top: 102px;
+    text-align: center;
+    max-width: 800px;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width:425px) {
+    .section__tittle_comments-modifier{
+        margin-top: 20%;
+        
+        max-width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+      
+}
+
+
+@media screen and (min-width:425px) and (max-width:769px){
+    .section__tittle_comments-modifier{
+        margin-top: 102px;
+        text-align: center;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

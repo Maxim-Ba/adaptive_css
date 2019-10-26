@@ -1,0 +1,43 @@
+.footer__copyright{
+   position: absolute;
+   right: 0px;
+   bottom: 0px; 
+   margin: 0px;
+   padding: 0px;
+   font-family: Inter;
+   font-size: 14px;
+   line-height: 20px;
+   text-align: right;
+
+   color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width:425px) {
+   .footer__copyright{
+      position: static;
+      right: 0px;
+      bottom: 0px; 
+      margin: 0px;
+      padding: 0px;
+      margin-left: 5%;
+      font-size: 0.8em;
+      line-height: 1.4;
+      text-align: left;
+      margin-top: 15%;
+      
+   }
+   
+}
+
+@media screen and (min-width:425px) and (max-width:769px){
+   .footer__copyright{
+      
+      
+      font-size: 0.9em;
+      font-size: 2vw;
+      line-height: 1.4;
+      
+   }
+}

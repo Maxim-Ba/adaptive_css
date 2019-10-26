@@ -1,0 +1,68 @@
+@import url('../../common__styles-and-sections/section__title.css');
+@import url('./__url-heading/__url-heading.css');
+@import url('./__URL/__URL.css');
+@import url('./__image/__image.css');
+@import url('./__paragraph/__paragraph.css');
+@import url('./url-position.css');
+.place{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: auto 460px;
+    grid-column-gap: 40px;
+    grid-row-gap: 60px;
+    
+    margin-bottom: 72px;
+    
+}
+.place:last-of-type{
+    margin-bottom: 0px;
+}
+@media screen and (max-width:425px) {
+    .place{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15%;
+        
+    }
+  }
+
+@media screen and (min-width:425px) and (max-width:769px){
+    .place{
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 48.2% 48.2%;
+        grid-template-rows: minmax(56px, auto) auto;
+        grid-column-gap: 3.6%;
+        grid-row-gap: 4.1%;
+        
+        margin-bottom: 10.5%;
+        
+    }
+}
+
+@media screen and (min-width:770px) and (max-width:1024px){
+    .place{
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 48.2% 48.2%;
+        grid-template-rows: minmax(80, auto) auto;
+        grid-column-gap: 3.6%;
+        grid-row-gap: 4.1%;
+        margin-bottom: 72px;
+        
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1280px){
+    .place{
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 46.7% 49%;
+        grid-template-rows: minmax(80, auto) auto;
+        grid-column-gap: 4.4%;
+        grid-row-gap: 6%;
+        margin-bottom: 7.5%;
+    }
+}

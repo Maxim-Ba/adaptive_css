@@ -1,0 +1,12 @@
+
+@import url('../common__styles-and-sections/section__title.css');
+@import url('./section__tittle_additional-modifier/section__tittle_additional-modifier.css');
+@import url('../common__styles-and-sections/content-subtitle.css');
+@import url('./__container/__container.css');
+
+
+.additional{
+    max-width: 1184px;
+    margin: 0 auto;
+    margin-top: 102px;
+}
