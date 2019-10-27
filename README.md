@@ -2,5 +2,5 @@
 
 ## Author: Balashov Maxim
 
-##Discription:
+## Discription:
 It is my second traning project. Technologes that use: HTML, CSS(adaptive/responsive), BEM. 
